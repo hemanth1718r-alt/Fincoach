@@ -1,19 +1,19 @@
 {
-  "name": "f1-ai-finance-coach",
+  "name": "finance-coach-api",
   "version": "1.0.0",
-  "description": "AI Personal Finance Coach — rule-based analytics backend",
+  "description": "Express Backend for Finance Coach",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "csv-parse": "^6.1.0",
-    "dotenv": "^17.2.2",
-    "express": "^5.1.0",
-    "express-rate-limit": "^7.5.0",
-    "mongoose": "^8.18.0",
-    "multer": "^2.0.2"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
